@@ -38,7 +38,7 @@ const Contact = () => {
     } else {
       try {
         // Send data to the server
-        const response = await axios.post('http://localhost:3001/api/auth/', {
+        const response = await axios.post('https://myportfolio-in-mern-backend.onrender.com/api/auth/', {
           username,
           phoneNumber,
           email,
