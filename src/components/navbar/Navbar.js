@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                "Hi, I'm Mohammad Ali, a full-stack developer passionate about crafting seamless digital experiences. Skilled in both front-end and back-end technologies, I love building innovative solutions."
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
