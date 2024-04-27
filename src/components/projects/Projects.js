@@ -17,16 +17,17 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
+           title="Invoice Generator"
+           des="Introducing a comprehensive full-stack invoice generator:
+           select products, rates, quantities, print PDFs and also full authentication.
+           "
+          src={projectTwo}
+        />
+        <ProjectsCard
           title="Nike.Store Clone"
           des=" it is the e-commerce portal of the Nike Company, a
           manufacturer branded sports shoes and other sports products!"
           src={projectOne}
-        />
-        <ProjectsCard
-          title="Quiz Web App"
-          des=" this is quiz web app in which the question related to web development in quiz form.
-          this made in htm Css and java script"
-          src={projectTwo}
         />
         <ProjectsCard
           title="Chatting App"

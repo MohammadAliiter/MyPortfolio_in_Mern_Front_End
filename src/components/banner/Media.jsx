@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaGithub, FaYoutube , FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiJava, SiJavascript} from "react-icons/si";
 const Media = () => {
   return (
@@ -10,13 +10,20 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
+            <a href="https://github.com/MohammadAliiter" target="_blank" rel="noopener noreferrer">
               <FaGithub />
+               </a>
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+            <a href="https://www.youtube.com/@WebXLearner" target="_blank" rel="noopener noreferrer">
+           
+              <FaYoutube  />
+              </a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+            <a href="https://www.linkedin.com/in/m-ali09" target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn />
+           </a>
             </span>
           </div>
         </div>
